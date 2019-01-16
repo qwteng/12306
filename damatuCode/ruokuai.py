@@ -11,8 +11,8 @@ class RClient(object):
             self.password = md5(password).hexdigest()
         except TypeError:
             self.password = md5(password.encode('utf-8')).hexdigest()
-        self.soft_id = '96061'
-        self.soft_key = '6facb9da7bb645ad9c4a229464b2cf89'
+        self.soft_id = '120688'
+        self.soft_key = '1dc815677da14ad8968ca292421c25ff'
         self.base_params = {
             'username': self.username,
             'password': self.password,
